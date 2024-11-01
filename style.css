@@ -1,0 +1,119 @@
+body {
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    background-image: url('Ginko.jpeg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-color: #FFFDD0; 
+}
+
+h1 {
+    color: #096900;
+    text-align: center; /* Center the heading */
+    text-shadow: 
+        -1px -1px 0 brown,  
+         1px -1px 0 brown,
+        -1px  1px 0 brown,
+         1px  1px 0 brown; /* brown border */
+}
+
+a {
+    color: #096900;
+    text-decoration: none;
+    text-shadow: 
+        -1px -1px 0 brown,  
+         1px -1px 0 brown,
+        -1px  1px 0 brown,
+         1px  1px 0 brown; /* brown border */
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+li {
+    color: #096900;
+    text-shadow: 
+        -1px -1px 0 brown,  
+         1px -1px 0 brown,
+        -1px  1px 0 brown,
+         1px  1px 0 brown; /* brown border */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+input:focus {
+    background-color: #096900; 
+}
+
+table {
+    width: 80%; /* Adjust width as needed */
+    margin: auto; /* Center the table */
+    margin-top: 20px;
+    border-collapse: collapse;
+    margin-bottom: 20px; 
+}
+
+table, th, td {
+    border: 1px solid brown; 
+    text-align: left; 
+    padding: 8px;
+    color: #096900; 
+    text-shadow: 
+        -1px -1px 0 brown,  
+         1px -1px 0 brown,
+        -1px  1px 0 brown,
+         1px  1px 0 brown; 
+}
+
+th {
+    background-color: #FFFDD0;
+}
+
+/* Optional: add some styling to the button */
+button {
+    background-color: #009900;
+    color: white;
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #007700; /* Darken on hover */
+}
+
+button:focus {
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 5px #009900; /* Add a custom focus effect */
+}
+.result {
+    white-space: pre; 
+    margin-top: 20px;
+    font-family: monospace; 
+    color: #FFFDD0;
+    text-shadow: 
+        -1px -1px 0 brown,  
+         1px -1px 0 brown,
+        -1px  1px 0 brown,
+         1px  1px 0 brown; /* brown border */
+}
+
+.error {
+    color: red;
+}
+
+/* Additional containers will be added later */
