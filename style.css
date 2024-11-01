@@ -100,20 +100,3 @@ button:focus {
     outline: none; /* Remove default outline */
     box-shadow: 0 0 5px #009900; /* Add a custom focus effect */
 }
-.result {
-    white-space: pre; 
-    margin-top: 20px;
-    font-family: monospace; 
-    color: #FFFDD0;
-    text-shadow: 
-        -1px -1px 0 brown,  
-         1px -1px 0 brown,
-        -1px  1px 0 brown,
-         1px  1px 0 brown; /* brown border */
-}
-
-.error {
-    color: red;
-}
-
-/* Additional containers will be added later */
