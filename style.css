@@ -48,6 +48,15 @@ li {
          1px  1px 0 brown; /* brown border */
 }
 
+p   {
+    color: #096900;
+    text-shadow: 
+        -1px -1px 0 brown,  
+         1px -1px 0 brown,
+        -1px  1px 0 brown,
+         1px  1px 0 brown; /* brown border */
+}
+
 a:hover {
     text-decoration: underline;
 }
