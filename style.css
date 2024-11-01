@@ -17,20 +17,20 @@ h1 {
     color: #096900;
     text-align: center; /* Center the heading */
     text-shadow: 
-        -1px -1px 0 brown,  
-         1px -1px 0 brown,
-        -1px  1px 0 brown,
-         1px  1px 0 brown; /* brown border */
+        -1px -1px 0 tan,  
+         1px -1px 0 tan,
+        -1px  1px 0 tan,
+         1px  1px 0 tan;  /* brown border */
 }
 
 a {
     color: #096900;
     text-decoration: none;
     text-shadow: 
-        -1px -1px 0 brown,  
-         1px -1px 0 brown,
-        -1px  1px 0 brown,
-         1px  1px 0 brown; /* brown border */
+        -1px -1px 0 tan,  
+         1px -1px 0 tan,
+        -1px  1px 0 tan,
+         1px  1px 0 tan; 
 }
 
 ul {
@@ -42,19 +42,19 @@ ul {
 li {
     color: #096900;
     text-shadow: 
-        -1px -1px 0 brown,  
-         1px -1px 0 brown,
-        -1px  1px 0 brown,
-         1px  1px 0 brown; /* brown border */
+        -1px -1px 0 tan,  
+         1px -1px 0 tan,
+        -1px  1px 0 tan,
+         1px  1px 0 tan; 
 }
 
 p   {
     color: #096900;
     text-shadow: 
-        -1px -1px 0 brown,  
-         1px -1px 0 brown,
-        -1px  1px 0 brown,
-         1px  1px 0 brown; /* brown border */
+        -1px -1px 0 tan,  
+         1px -1px 0 tan,
+        -1px  1px 0 tan,
+         1px  1px 0 tan;  
 }
 
 a:hover {
@@ -74,15 +74,15 @@ table {
 }
 
 table, th, td {
-    border: 1px solid brown; 
+    border: 1px solid tan; 
     text-align: left; 
     padding: 8px;
     color: #096900; 
     text-shadow: 
-        -1px -1px 0 brown,  
-         1px -1px 0 brown,
-        -1px  1px 0 brown,
-         1px  1px 0 brown; 
+        -1px -1px 0 tan,  
+         1px -1px 0 tan,
+        -1px  1px 0 tan,
+         1px  1px 0 tan; 
 }
 
 th {
