@@ -89,24 +89,3 @@ table, th, td {
 th {
     background-color: rgba(255, 253, 208, 0.8); /* Set transparency for header */
 }
-
-/* Optional: add some styling to the button */
-button {
-    background-color: #009900;
-    color: white;
-    border: none;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    padding: 10px 20px;
-    cursor: pointer;
-    transition: background-color 0.3s ease; /* Smooth transition */
-}
-
-button:hover {
-    background-color: #007700; /* Darken on hover */
-}
-
-button:focus {
-    outline: none; /* Remove default outline */
-    box-shadow: 0 0 5px #009900; /* Add a custom focus effect */
-}
