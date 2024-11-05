@@ -48,7 +48,7 @@ li {
          1px  1px 0 tan; 
 }
 
-p   {
+p {
     color: #096900;
     text-shadow: 
         -1px -1px 0 tan,  
@@ -70,6 +70,7 @@ table {
     margin: auto; /* Center the table */
     margin-top: 20px;
     border-collapse: collapse;
+    background-color: rgba(255, 253, 208, 0.8); /* Set transparency with rgba */
     margin-bottom: 20px; 
 }
 
@@ -86,7 +87,7 @@ table, th, td {
 }
 
 th {
-    background-color: #FFFDD0;
+    background-color: rgba(255, 253, 208, 0.8); /* Set transparency for header */
 }
 
 /* Optional: add some styling to the button */
