@@ -13,7 +13,7 @@ body {
     background-color: #FFFDD0; 
 }
 
-h1 {
+h1, a, li, p {
     color: #096900;
     text-align: center; /* Center the heading */
     text-shadow: 
@@ -23,38 +23,10 @@ h1 {
          1px  1px 0 tan;  /* brown border */
 }
 
-a {
-    color: #096900;
-    text-decoration: none;
-    text-shadow: 
-        -1px -1px 0 tan,  
-         1px -1px 0 tan,
-        -1px  1px 0 tan,
-         1px  1px 0 tan; 
-}
-
 ul {
     list-style-type: none; 
     padding: 0; 
     margin: 0; 
-}
-
-li {
-    color: #096900;
-    text-shadow: 
-        -1px -1px 0 tan,  
-         1px -1px 0 tan,
-        -1px  1px 0 tan,
-         1px  1px 0 tan; 
-}
-
-p {
-    color: #096900;
-    text-shadow: 
-        -1px -1px 0 tan,  
-         1px -1px 0 tan,
-        -1px  1px 0 tan,
-         1px  1px 0 tan;  
 }
 
 a:hover {
@@ -76,7 +48,7 @@ table {
 
 table, th, td {
     border: 1px solid tan; 
-    text-align: left; 
+    text-align: center; /* Change from left to center for both th and td */
     padding: 8px;
     color: #096900; 
     text-shadow: 
